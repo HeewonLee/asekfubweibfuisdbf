@@ -4,7 +4,7 @@ Google App Engine에서 [Flask micro framework](http://flask.pocoo.org)를 이�
 
 [원본 뼈대](https://github.com/GoogleCloudPlatform/appengine-python-flask-skeleton)에서 app 폴더를 추가한 정도입니다.
 
-## 로컬에서 실행해야 할 것
+## Quick start
 
 0. 해당 프로젝트를 SourceTree를 통해 Clone합니다.
 
@@ -18,7 +18,19 @@ Google App Engine에서 [Flask micro framework](http://flask.pocoo.org)를 이�
    cd appengine-python-flask-skeleton-for-likelion
    pip install -r requirements.txt -t lib
    ```
-2. 프로젝트를 로컬에서 실행해 봅니다.
+2. [app.yaml](app.yaml) 파일의 9번째 줄의 'your-application-id-here'를 해당 프로젝트의 application-id로 변경합니다.
+
+   ```
+   [app.yaml]
+   ...
+   # using cloud.google.com/console use the "project id" for your application
+   # id.
+   application: your-application-id-here
+   version: 1
+   runtime: python27
+   ...
+   ```
+3. 프로젝트를 로컬에서 실행해 봅니다.
 
 ## Contributing changes
 See [CONTRIB.md](CONTRIB.md)
