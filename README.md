@@ -12,7 +12,8 @@ Google App Engine에서 [Flask micro framework](http://flask.pocoo.org)를 이�
    https://github.com/rishubil/appengine-python-flask-skeleton-for-likelion.git
    ```
 1. 의존 모듈을 해당 프로젝트의 lib 폴더에 설치합니다.
-Note: App Engine은 프로젝트 내부에 직접 포함된 라이브러리만 import 할 수 있습니다.
+
+   Note: App Engine은 프로젝트 내부에 직접 포함된 라이브러리만 import 할 수 있습니다.
 
    ```
    cd appengine-python-flask-skeleton-for-likelion
