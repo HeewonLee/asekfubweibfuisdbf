@@ -33,9 +33,6 @@ Google App Engine에서 [Flask micro framework](http://flask.pocoo.org)를 이�
    ```
 3. 프로젝트를 로컬에서 실행해 봅니다.
 
-## Contributing changes
-See [CONTRIB.md](CONTRIB.md)
-
 ## Licensing
 See [LICENSE](LICENSE)
 
